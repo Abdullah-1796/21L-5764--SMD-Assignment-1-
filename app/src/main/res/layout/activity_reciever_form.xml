@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SenderForm"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rDetail"
+        android:textSize="@dimen/sizeSDetail"
+        android:textColor="@color/white"
+        android:background="@drawable/bottom_rounded_corners"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+    />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40sp"
+        android:layout_marginBottom="40sp"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:boxCornerRadiusTopStart="20sp"
+            app:boxCornerRadiusTopEnd="20sp"
+            app:boxCornerRadiusBottomStart="20sp"
+            app:boxCornerRadiusBottomEnd="20sp"
+            app:boxBackgroundMode="filled"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxStrokeColor="@color/gray"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/email"
+                android:id="@+id/etEmail"
+                android:layout_marginStart="35sp"
+                android:layout_marginEnd="35sp"
+                android:layout_marginBottom="15sp"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:boxCornerRadiusTopStart="20sp"
+            app:boxCornerRadiusTopEnd="20sp"
+            app:boxCornerRadiusBottomStart="20sp"
+            app:boxCornerRadiusBottomEnd="20sp"
+            app:boxBackgroundMode="filled"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxStrokeColor="@color/gray"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name"
+                android:id="@+id/etName"
+                android:layout_marginStart="35sp"
+                android:layout_marginEnd="35sp"
+                android:layout_marginBottom="15sp"
+                android:padding="10sp"
+                android:textColor="@color/black"
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:boxCornerRadiusTopStart="20sp"
+            app:boxCornerRadiusTopEnd="20sp"
+            app:boxCornerRadiusBottomStart="20sp"
+            app:boxCornerRadiusBottomEnd="20sp"
+            app:boxBackgroundMode="filled"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxStrokeColor="@color/gray"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/contactInfo"
+                android:id="@+id/etContactInformation"
+                android:layout_marginStart="35sp"
+                android:layout_marginEnd="35sp"
+                android:layout_marginBottom="15sp"
+                android:padding="10sp"
+                android:textColor="@color/black"
+                android:inputType="phone"
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:boxCornerRadiusTopStart="20sp"
+            app:boxCornerRadiusTopEnd="20sp"
+            app:boxCornerRadiusBottomStart="20sp"
+            app:boxCornerRadiusBottomEnd="20sp"
+            app:boxBackgroundMode="filled"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxStrokeColor="@color/gray"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/country"
+                android:id="@+id/etCountry"
+                android:layout_marginStart="35sp"
+                android:layout_marginEnd="35sp"
+                android:layout_marginBottom="15sp"
+                android:padding="10sp"
+                android:textColor="@color/black"
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:boxCornerRadiusTopStart="20sp"
+            app:boxCornerRadiusTopEnd="20sp"
+            app:boxCornerRadiusBottomStart="20sp"
+            app:boxCornerRadiusBottomEnd="20sp"
+            app:boxBackgroundMode="filled"
+            app:boxBackgroundColor="@color/white"
+            app:boxStrokeWidth="0dp"
+            app:boxStrokeWidthFocused="0dp"
+            app:boxStrokeColor="@color/gray"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:id="@+id/etAddress"
+                android:layout_marginStart="35sp"
+                android:layout_marginEnd="35sp"
+                android:padding="10sp"
+                android:textColor="@color/black"
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:boxCornerRadiusTopStart="20sp"
+        app:boxCornerRadiusTopEnd="20sp"
+        app:boxCornerRadiusBottomStart="20sp"
+        app:boxCornerRadiusBottomEnd="20sp"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:text="@string/next"
+            android:paddingHorizontal="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/btnRecieverNext"
+            android:background="@drawable/button_radius"
+        />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

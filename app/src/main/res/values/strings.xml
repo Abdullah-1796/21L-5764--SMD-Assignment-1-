@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Assignment 1</string>
+    <string name="logo">Logo</string>
+    <string name="sDetail">Sender\nDetails</string>
+    <string name="rDetail">Reciever\nDetails</string>
+    <string name="reviewInfo">Review Information</string>
+    <string name="email">Email</string>
+    <string name="name">Full Name</string>
+    <string name="contactInfo">Contact Information</string>
+    <string name="country">Country</string>
+    <string name="address">Address</string>
+    <string name="next">Next</string>
+    <string name="contact">Contact</string>
+    <string name="none">N / A</string>
+
+</resources>
